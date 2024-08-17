@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -8,73 +8,91 @@
     font-size: 20px;
 }
 
-body{
+body {
     background-color: rgb(211, 211, 211);
 }
-header{
+
+header {
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     height: 130px;
-    padding: 10px 15%;
     align-items: center;
-    
-    }
+    padding: 40px;
+    gap: 20px;
 
-.header .logo img{
-    height: 100px;
+}
+
+.header .logo img {
+    height: 80px;
     width: auto;
     transition: all 0.3s;
 
 
 }
-.header .logo img:hover{
+
+.header .logo img:hover {
     transform: scale(1.2);
 }
- .header .nav-links{
+
+.header .nav-links {
+    display: flex;
     list-style: none;
- }
- .header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;
- }
+    gap: 20px;
+}
 
- .header .nav-links li{
-    transition: all 0.3s
- }
- 
- 
- 
- .header .nav-links li:hover{
-    transform: scale(1.1)
+
+.header .nav-links li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 700;
+   transition:color 0.5s ease-out; 
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links li{
+    transition: transform 0.5s ease;
+}
+
+.header .nav-links li a:hover {
+    color: #7ed957;
+}
+
+
+
+.area h1 {
+    font-size: 35px;
+
+
+}
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 40px;
     
- }
-
-
-
- .header .nav-links a{
-   font-size: 700;
-   color: rgb(0, 0, 0);
-   text-decoration: none;
- 
-}
-.header .nav-links a:hover{
-  color:rgb(117, 255, 62)
 }
 
-h1{
-   font-size: 35px;
-   padding: 60px 60px;
+.contenedor .imagen {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    transition: ease transform 0.5s;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
 }
-p{
-    height: 200px;
-    width:  600px;
-    padding: 5px 60px;
-}
+.contenedor .imagen:hover{
+    transform: scale(1.1);
 
-.contenedor .Imagen img{
-    height: 350px;
-    width: 350px;
 }
- 
