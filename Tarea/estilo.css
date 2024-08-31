@@ -5,25 +5,35 @@
     margin: 0;
     padding: 0;
     font-family: "M PLUS Rounded 1c", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
+
+.layout {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
 
 body {
     background-color: rgb(211, 211, 211);
 }
 
 header {
-    background-color: rgb(255, 255, 255);
     display: flex;
+    flex-grow: 1;
+    max-width: 1500px;
     justify-content: space-between;
-    height: 130px;
     align-items: center;
-    padding: 40px;
-    gap: 20px;
-
+    gap: 210px;
 }
 
-.header .logo img {
+.background-header {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+header .logo img {
     height: 80px;
     width: auto;
     transition: all 0.3s;
@@ -31,68 +41,145 @@ header {
 
 }
 
-.header .logo img:hover {
+header .logo img:hover {
     transform: scale(1.2);
 }
 
-.header .nav-links {
+header .nav-links {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30px;
 }
 
 
-.header .nav-links li a{
+header .nav-links li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 700;
-   transition:color 0.5s ease-out; 
+    transition: color 0.5s ease-out;
+    font-size: 25px;
+    font-weight: 800;
 }
 
-.header .nav-links li:hover{
+header .nav-links li:hover {
     transform: scale(1.1);
 }
 
-.header .nav-links li{
+header .nav-links li {
     transition: transform 0.5s ease;
 }
 
-.header .nav-links li a:hover {
+header .nav-links li a:hover {
     color: #7ed957;
 }
 
 
-
-.area h1 {
-    font-size: 35px;
-
-
-}
-
-
 .contenedor {
+
+    max-width: 1500px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px;
-    gap: 40px;
-    
+    flex-direction: column;
+    gap: 20px;
+
+
 }
+
+.contenedor h1 {
+    font-size: 50px;
+}
+
 
 .contenedor .imagen {
     height: 300px;
-    width: 500px;
+    width: 700px;
     border-radius: 10px;
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
     transition: ease transform 0.5s;
 }
-.area{
+
+.area {
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: row;
+    gap: 40px;
 
 }
-.contenedor .imagen:hover{
+
+.contenedor .imagen:hover {
     transform: scale(1.1);
 
+}
+
+.contenedor .imagen2 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 00.75rem #000000);
+    transition: ease transform 0.5s;
+
+}
+
+.imagen2:hover {
+    transform: scale(1.1);
+}
+
+.area2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px 30px;
+    gap: 50px;
+}
+
+.title2 {
+    font-size: 50px;
+}
+
+.lista {
+    padding: 20px;
+    font-size: 35px;
+}
+
+.ajo {
+    text-decoration: underline;
+}
+
+.importante {
+    padding: 8px;
+}
+
+.mora {
+    text-decoration: underline;
+}
+
+.title3 {
+    font-size: 50px;
+}
+
+.title4 {
+    font-size: 50px;
+}
+
+.footer {
+    width: auto;
+    height: 50px;
+    background-color: rgb(125, 125, 125);
+}
+
+.creador {
+    text-align: center;
+}
+
+.Grado {
+    text-align: center;
+}
+
+.boton {
+    position: fixed;
+    left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
 }
