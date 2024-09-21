@@ -176,10 +176,142 @@ header .nav-links li a:hover {
 
 .boton {
     position: fixed;
-    left: 10px;
+    left: 5px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 50px;
     height: 50px;
     bottom: 50px;
+}
+
+.title5 {
+    font-size: 50px;
+}
+
+.title6 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.tituloorigen {
+    font-size: 70px
+}
+
+.contenedor .imagen3 {
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    border-radius: 10px;
+    height: 400px;
+    width: 700px;
+    transition: ease transform 0.5s;
+    ;
+}
+
+.imagen3:hover {
+    transform: scale(1.1);
+}
+
+.contenedor .infodelajo {
+    display: flex;
+    gap: 30px;
+}
+
+.contenedor .imagen4 {
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    border-radius: 10px;
+    height: 400px;
+    width: 700px;
+    transition: ease transform 0.5s;
+}
+
+.imagen4:hover {
+    transform: scale(1.1);
+}
+
+.contenedor .Origen {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    padding: 60px 0px;
+}
+.ajobonito {
+    position: absolute;
+    top: 3270px;
+    right: 450px;
+    height: 120px;
+    width: 200px;
+    transition: 2s;
+}
+.ajo2{
+    padding: 60px 0px;
+}
+
+.ajobonito:hover {
+    transform: rotate(-360deg);
+}
+
+.beneficiosajo {
+    font-size: 50px;
+}
+
+.Mora {
+    font-size: 70px;
+    text-align: center;
+}
+.beneficiosajo{
+    text-align:end ;
+    padding: 0px 150px;
+}
+.dibujomora{
+    position: absolute;
+    top: 657%;
+    right: 57%;
+    height: 100px;
+    width: 140px;
+    transition: 2s;
+}
+.dibujomora:hover{
+    transform: rotate(-360deg);
+}
+.infomora{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+.morafoto{
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    transition: ease transform 0.5s;
+}
+.morafoto:hover{
+    transform: scale(1.1);
+}
+.moraorigen{
+    font-size: 70px;
+    padding: 100px 0px;
+}
+.origenmora{
+    display: flex;
+    gap: 30px;
+}
+.Origenfoto{
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    transition: ease transform 0.5s;
+}
+.Origenfoto:hover{
+    transform: scale(1.1);
+}
+.beneficiosmora{
+    padding: 100px 0px;
+}
+.beneficios-mora{
+    font-size: 70px;
+    text-align: end;
+}
+.derechos{
+  text-align: center;
 }
